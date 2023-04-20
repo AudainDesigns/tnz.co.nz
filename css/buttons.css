@@ -1,0 +1,312 @@
+/*Base*/
+.tnz_btn {
+	font-family: "TTCommonsPro-Bd";
+	font-size: 14px;
+	letter-spacing: 1.12px;
+	padding: 12px 24px!important;
+	margin: 0px;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+/*Default*/
+.tnz_btn.tnz_btn_default {
+	color:#FFFFFF;
+	background-color:#1057FC;
+	border:2px solid #1057FC;
+}
+
+.tnz_btn.tnz_btn_secondary {
+	color:#1057FC;
+	background-color:transparent;
+	border:2px solid #1057FC;
+}
+
+.tnz_btn.tnz_btn_secondary.navy {
+	color:#210F47;
+	background-color:transparent;
+	border:2px solid #210F47;
+}
+
+.tnz_btn.tnz_btn_secondary.home_login {
+	color:#FFFFFF;
+	background-color:transparent;
+	border:2px solid #FFFFFF;
+}
+.nav_sec.tnz_white_bg .tnz_btn.tnz_btn_secondary.home_login {
+	color:#210F47;
+	background-color:transparent;
+	border:2px solid #210F47;
+}
+
+.tnz_btn.tnz_btn_secondary.navy.subscribe {
+	color:#FFFFFF;
+	background-color:#210F47;
+	border:2px solid #210F47;
+}
+
+.tnz_btn.tnz_btn_default.white {
+	color:#FFFFFF;
+	background-color:transparent;
+	border:2px solid #FFFFFF;
+}
+
+/*Hover*/
+.tnz_btn.tnz_btn_default:hover {
+	color:#1057FC;
+	background-color:transparent;
+	border:2px solid #1057FC;
+}
+
+.tnz_btn.tnz_btn_secondary:hover {
+	color:#FFFFFF;
+	background-color:#1057FC;
+	border:2px solid #1057FC;
+}
+
+.tnz_btn.tnz_btn_secondary.navy:hover {
+	color:#FFFFFF;
+	background-color:#210F47;
+	border:2px solid #210F47;
+}
+
+.tnz_btn.tnz_btn_secondary.home_login:hover {
+	color:#FFFFFF;
+	background-color:transparent;
+	border:2px solid #FFFFFF;
+}
+
+.nav_sec.tnz_white_bg .tnz_btn.tnz_btn_secondary.home_login:hover {
+	color:#FFFFFF;
+	background-color:#210F47;
+	border:2px solid #210F47;
+}
+
+.tnz_btn.tnz_btn_secondary.navy.subscribe:hover {
+	color:#210F47;
+	background-color:transparent;
+	border:2px solid #210F47;
+}
+
+.tnz_btn.tnz_btn_default.white:hover {
+	color:#FFFFFF;
+	background-color:transparent;
+	border:2px solid #FFFFFF;
+}
+.tnz_btn.tnz_btn_default.white.subscribe:hover {
+    color: #210F47;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+/*Active*/
+.tnz_btn.tnz_btn_default:active {
+	color:#FFFFFF;
+	background-color:#1057FC;
+	border:2px solid #1057FC;
+}
+
+.tnz_btn.tnz_btn_secondary:active {
+	color:#1057FC;
+	background-color:transparent;
+	border:2px solid #1057FC;
+}
+
+.tnz_btn.tnz_btn_secondary.navy:active {
+	color:#210F47;
+	background-color:transparent;
+	border:2px solid #210F47;
+}
+
+.tnz_btn.tnz_btn_secondary.home_login:active {
+	color:#FFFFFF;
+	background-color:transparent;
+	border:2px solid #FFFFFF;
+}
+
+.nav_sec.tnz_white_bg .tnz_btn.tnz_btn_secondary.home_login:active {
+	color:#FFFFFF;
+	background-color:#210F47;
+	border:2px solid #210F47;
+}
+
+.tnz_btn.tnz_btn_secondary.navy.subscribe:active {
+	color:#FFFFFF;
+	background-color:#210F47;
+	border:2px solid #210F47;
+}
+
+.tnz_btn.tnz_btn_default.white:active {
+	color:#FFFFFF;
+	background-color:transparent;
+	border:2px solid #FFFFFF;
+}
+.tnz_btn.tnz_btn_default.white.subscribe:active {
+    color: #210F47;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+/*Disabled*/
+.tnz_btn.tnz_btn_default:disabled {
+	color:#FFFFFF;
+	background-color:#4B566F;
+	border:2px solid #4B566F;
+}
+
+.tnz_btn.tnz_btn_secondary:disabled {
+	color:#4B566F;
+	background-color:transparent;
+	border:2px solid #4B566F;
+}
+
+/*overrides*/
+.api_btn, .search_btn {
+	position: absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	right: 0;
+}
+.tnz_btn.tnz_btn_default.no-stretch {
+	align-self: center;
+}
+.inline_buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.inline_buttons .tnz_btn:first-child {
+    margin-right:20px;
+}
+.tnz_btn.subscribe {
+	margin:0px 9px;
+}
+.tnz_btn.api_btn, 
+.tnz_btn.integration_btn, 
+.tnz_btn.search_btn {
+	color:#1057FC;
+	background-color:transparent;
+	border:none;
+}
+
+@media (max-width: 991px) {
+	.tnz_btn.tnz_btn_default.trial{
+		margin-left: auto;
+		margin-right: 30px;
+	}
+	.tnz_btn.tnz_btn_secondary.navy.login {
+		display:block;
+	}
+	.tnz_btn.tnz_btn_secondary.home_login {
+		color:#210F47;
+		background-color:transparent;
+		border:2px solid #210F47;
+	}
+	.tnz_btn.tnz_btn_secondary.home_login:hover,
+	.tnz_btn.tnz_btn_secondary.home_login:active {
+		color:#210F47;
+		background-color:transparent;
+		border:2px solid #210F47;
+	}
+}
+
+
+
+    
+
+/*LINKS*/
+
+/*Base*/
+.tnz_link {
+	font-family: "TTCommonsPro-Bd";
+	font-size: 14px;
+	letter-spacing: 1.12px;
+	text-decoration:none;
+	outline:none;
+}
+.tnz_link i {
+	color:#1057FC!important;
+	font-size: 20px;
+	vertical-align: -2px;
+}
+
+/*Default*/
+.tnz_link.tnz_link_default {
+	color:#210F47;
+}
+
+.tnz_link.tnz_link_default i{
+	color: #1057FC;
+}
+
+.tnz_link.tnz_link_secondary {
+	color: #1057FC;
+}
+
+.tnz_link.tnz_link_secondary i {
+	color: #1057FC;
+}
+
+.tnz_link.tnz_link_secondary.t_white {
+	color: #FFFFFF;
+}
+
+.tnz_link.tnz_link_secondary.t_white i {
+	color: #FFFFFF;
+}
+
+
+/*Hover*/
+.tnz_link.tnz_link_default:hover {
+	color: #1057FC;
+}
+.tnz_link.tnz_link_default:hover i {
+	color: #1057FC;
+}
+
+.tnz_link.tnz_link_secondary:hover {
+	color:#210F47;
+}
+.tnz_link.tnz_link_secondary:hover i {
+	color:#210F47;
+}
+.tnz_link.tnz_link_secondary.h_white:hover {
+	color:#FFFFFF;
+}
+.tnz_link.tnz_link_secondary.h_white:hover i {
+	color:#FFFFFF;
+}
+.tnz_link.tnz_link_secondary.t_white:hover {
+	color:#1057FC;
+}
+.tnz_link.tnz_link_secondary.t_white:hover i {
+	color:#1057FC;
+}
+
+/*Active*/
+.tnz_link.tnz_link_default:active {
+	color:#210F47;
+}
+
+.tnz_link.tnz_link_default:active i {
+	color:#210F47;
+	
+}
+
+.tnz_link.tnz_link_secondary:active {
+	color:#1057FC;
+}
+.tnz_link.tnz_link_secondary:active i {
+	color:#1057FC;
+}
+
+/*Disabled*/
+.tnz_link.tnz_link_default:disabled {
+	color:#4B566F;
+}
+
+.tnz_link.tnz_secondary:disabled {
+	color:#4B566F;
+}

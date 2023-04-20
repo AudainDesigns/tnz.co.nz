@@ -1,0 +1,161 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4138043, 2021-08-08T23:11:36-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: TTCommonsPro-Thin by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/thin/
+ * 
+ * Webfont: TTCommonsPro-ThinIt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/thin-italic/
+ * 
+ * Webfont: TTCommonsPro-XLt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-light/
+ * 
+ * Webfont: TTCommonsPro-XLtIt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-light-italic/
+ * 
+ * Webfont: TTCommonsPro-Lt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/light/
+ * 
+ * Webfont: TTCommonsPro-LtIt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/light-italic/
+ * 
+ * Webfont: TTCommonsPro-Rg by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/regular/
+ * 
+ * Webfont: TTCommonsPro-It by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/italic/
+ * 
+ * Webfont: TTCommonsPro-Md by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/medium/
+ * 
+ * Webfont: TTCommonsPro-MdIt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/medium-italic/
+ * 
+ * Webfont: TTCommonsPro-Db by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/demi-bold/
+ * 
+ * Webfont: TTCommonsPro-DbIt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/demi-bold-italic/
+ * 
+ * Webfont: TTCommonsPro-Bd by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/bold/
+ * 
+ * Webfont: TTCommonsPro-BdIt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/bold-italic/
+ * 
+ * Webfont: TTCommonsPro-XBd by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-bold/
+ * 
+ * Webfont: TTCommonsPro-XBdIt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-bold-italic/
+ * 
+ * Webfont: TTCommonsPro-Blk by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/black/
+ * 
+ * Webfont: TTCommonsPro-BlkIt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/black-italic/
+ * 
+ * Webfont: TTCommonsPro-XBlk by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extrablack/
+ * 
+ * Webfont: TTCommonsPro-XBlkIt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extrablack-italic/
+ * 
+ * 
+ * Webfonts copyright: Copyright (c) 2018-2021 by TypeType. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+/*@import url("//hello.myfonts.net/count/3f243b");*/
+  
+@font-face {
+  font-family: "TTCommonsPro-MdIt";
+  src: url('webFonts/TTCommonsProMdIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProMdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-LtIt";
+  src: url('webFonts/TTCommonsProLtIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProLtIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-Rg";
+  src: url('webFonts/TTCommonsProRg/font.woff2') format('woff2'), url('webFonts/TTCommonsProRg/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-ThinIt";
+  src: url('webFonts/TTCommonsProThinIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProThinIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-Lt";
+  src: url('webFonts/TTCommonsProLt/font.woff2') format('woff2'), url('webFonts/TTCommonsProLt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-XBdIt";
+  src: url('webFonts/TTCommonsProXBdIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProXBdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-XLtIt";
+  src: url('webFonts/TTCommonsProXLtIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProXLtIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-Db";
+  src: url('webFonts/TTCommonsProDb/font.woff2') format('woff2'), url('webFonts/TTCommonsProDb/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-XBlkIt";
+  src: url('webFonts/TTCommonsProXBlkIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProXBlkIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-It";
+  src: url('webFonts/TTCommonsProIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-Md";
+  src: url('webFonts/TTCommonsProMd/font.woff2') format('woff2'), url('webFonts/TTCommonsProMd/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-Blk";
+  src: url('webFonts/TTCommonsProBlk/font.woff2') format('woff2'), url('webFonts/TTCommonsProBlk/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-BlkIt";
+  src: url('webFonts/TTCommonsProBlkIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProBlkIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-Thin";
+  src: url('webFonts/TTCommonsProThin/font.woff2') format('woff2'), url('webFonts/TTCommonsProThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-Bd";
+  src: url('webFonts/TTCommonsProBd/font.woff2') format('woff2'), url('webFonts/TTCommonsProBd/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-XBlk";
+  src: url('webFonts/TTCommonsProXBlk/font.woff2') format('woff2'), url('webFonts/TTCommonsProXBlk/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-XBd";
+  src: url('webFonts/TTCommonsProXBd/font.woff2') format('woff2'), url('webFonts/TTCommonsProXBd/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-BdIt";
+  src: url('webFonts/TTCommonsProBdIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProBdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-DbIt";
+  src: url('webFonts/TTCommonsProDbIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProDbIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-XLt";
+  src: url('webFonts/TTCommonsProXLt/font.woff2') format('woff2'), url('webFonts/TTCommonsProXLt/font.woff') format('woff');
+}
+

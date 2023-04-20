@@ -1,0 +1,79 @@
+$(document).ready(function() {
+	
+	if ( $(window).width() < 767 ) {
+		startCarousel();
+		$('.tnz_box_outer').addClass('tnz_escape_width');
+	} else {
+		$('.owl-carousel').addClass('off');
+		$('.tnz_box_outer').removeClass('tnz_escape_width');
+	}
+	
+	$(window).resize(function() {
+		if ( $(window).width() < 767 ) {
+			startCarousel();
+			$('.tnz_box_outer').addClass('tnz_escape_width');
+		} else {
+			stopCarousel();
+			$('.tnz_box_outer').removeClass('tnz_escape_width');
+		}
+	});
+	
+	//Solution Carousel Carousels
+	function startCarousel(){
+		$('.owl-carousel').owlCarousel({
+			navigation : false, // Show next and prev buttons
+			margin:10,
+			paginationSpeed : 400,
+			autoplay:false,
+			items : 1,
+			loop:false,
+			nav:true,
+			stagePadding:50,
+			navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>","<i class='fa fa-angle-right' aria-hidden='true'></i>"]
+		});
+	}
+	function stopCarousel() {
+		var owl = $('.owl-carousel');
+		owl.trigger('destroy.owl.carousel');
+		owl.addClass('off');
+	}
+	
+	/*SMS carousel*/
+	$('.sms-carousel').owlCarousel({
+			navigation : true, // Show next and prev buttons
+			dots : false,
+			margin:10,
+			paginationSpeed : 400,
+			autoplay:false,
+			items : 4,
+			loop:false,
+			nav:true,
+			navText: ["<i class='bi bi-chevron-left'></i>","<i class='bi bi-chevron-right'></i>"]
+		});
+		
+	/*Case studies carousel*/
+	$('.cs-carousel').owlCarousel({
+			navigation : false, // Show next and prev buttons
+			dots : true,
+			margin:10,
+			paginationSpeed : 400,
+			autoplay:false,
+			items : 3,
+			loop:false,
+			nav:true,
+			navText: ["<i class='bi bi-chevron-left'></i>","<i class='bi bi-chevron-right'></i>"]
+		});
+		
+	/*Testimonial carousel*/
+	$('.testimonial-carousel').owlCarousel({
+			navigation : true, // Show next and prev buttons
+			dots : true,
+			margin:10,
+			paginationSpeed : 400,
+			autoplay:false,
+			items : 1,
+			loop:false,
+			nav:true,
+			navText: ["<i class='bi bi-chevron-left'></i>","<i class='bi bi-chevron-right'></i>"]
+		});
+});

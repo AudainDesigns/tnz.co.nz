@@ -1,0 +1,305 @@
+/*Colors*/
+
+body {color:#210F47;}
+.tnz_navy_bg{background-color:#210F47;}
+.tnz_blue_bg{background-color:#1057FC;}
+.tnz_blue2_bg{background-color:#225fef;}
+.tnz_white_bg{background-color:#FFFFFF!important;}
+.tnz_grey_bg{background-color:#F3F2F5;}
+.tnz_grey2_bg{background-color:#ECEBEF;}
+.tnz_dark_grey_bg {background-color:#d4d0db;}
+.tnz_blue {color:#1057FC;}
+.tnz_navy {color:#210F47;}
+.tnz_white_text {color:#FFFFFF;}
+
+p a {
+	text-decoration: none;
+}
+
+.no_bottom_padding {
+	padding-bottom:0px!important;
+}
+
+.form-control{
+  font-family:"TTCommonsPro-Rg";
+}
+
+.form-label {
+  font-family:"TTCommonsPro-Bd";
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+input[type="text"], input[type="email"], input[type="phone"], input[type="password"], select{
+	border-radius: 2px !important;
+	padding: 12px 10px !important;
+	border: 0;
+    outline: none;
+}
+
+/*Select*/
+.tnz_select_wrapper {
+	position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+select {
+	position: relative;
+	appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+    background: none;
+	padding-right: 30px!important;
+	z-index: 2;
+}
+select:after {
+	position: absolute;
+    right: 0;
+    font-family: "Font Awesome 6 Free";
+    content: "/f078";
+    color: #1057FC;
+    font-size: 10px;
+}
+/* To remove the arrow of select element in IE */
+select::-ms-expand {
+  display: none;
+}
+.tnz_select_wrapper i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: #1057FC;
+}
+
+/*List Items*/
+.tnz_list {
+	position:relative;
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.tnz_list:before {
+	position: absolute;
+	content: "";
+	font-family: "TTCommonsPro-Bd";
+	height: 40px;
+	height: 100%;
+	width: 2px;
+	background-color: #cccccc;
+	left: -20px;
+	top: -5px;
+}
+.tnz_list.no_side_border:before {
+	position: absolute;
+	height: 0;
+	height: 0;
+	width: 0px;
+	background-color: transparent;
+}
+.tnz_list.tnz_normal_list {
+	margin: inherit;
+    padding: inherit;
+    list-style: inherit;
+}
+.tnz_list.tnz_normal_list li {
+	display: list-item;
+}
+.tnz_list li {
+	padding: 0;
+    margin-bottom: 10px;
+	color:#4B566F;
+	font-size:18px;
+}
+.tnz_list li a {
+	color:inherit;
+	text-decoration:none;
+}
+.tnz_list li a:hover {
+	color:#1057FC;
+}
+.tnz_sub_list {
+    margin-top: 10px;
+}
+.tnz_sub_list li {
+	font-family:"TTCommonsPro-Rg";
+	font-size:14px;
+}
+.tnz_sub_list li a {
+	color:inherit;
+	text-decoration:none;
+}
+.tnz_list li.active {
+	position:relative;
+	font-family:"TTCommonsPro-Bd";
+	color:#1057FC;
+}
+.tnz_list li.active:before {
+	position: absolute;
+    content: "";
+    font-family: "TTCommonsPro-Bd";
+    height: 40px;
+    height: 40px;
+    width: 4px;
+    background-color: #1057FC;
+    left: -20px;
+    top: -5px;
+}
+
+/*Images*/
+.tnz_img_border {
+	border-radius: 6px;
+}
+
+/*Search*/
+.search_wrapper {
+	position: relative;
+    margin-top: 30px;
+}
+.search_input {
+	width: 100%;
+	background-color: #ECEBEF;
+	border: none;
+	outline: none!important;
+	color: #333333;
+	padding-right: 63px!important;
+}
+.search_btn {
+	background-color: #ECEBEF;
+	border: none;
+	outline: none!important;
+	color: #333333;
+	padding-right: 63px!important;
+}
+
+.separator {
+	margin:80px 0px;
+}
+hr {
+	height: 2px!important;
+	background-color: #CCCCCC;
+}
+
+/*Owl Carousel*/
+
+.owl-carousel.off {
+    display: block;
+}
+.owl-dots {
+	margin-top:20px;
+}
+#sub_hero_section .owl-stage {
+    margin-left: -35px;
+}
+.tnz_escape_width {
+	width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+.tnz_sec .owl-theme .owl-dots .owl-dot span {
+	width: 12px;
+	height: 12px;
+	background: transparent;
+	border: 2px solid #FFFFFF;
+}
+.tnz_sec.tnz_no_bg .owl-theme .owl-dots .owl-dot span {
+	background: transparent;
+	border: 2px solid #1057FC;
+}
+.tnz_sec.tnz_no_bg .owl-theme .owl-dots .owl-dot.active span{
+	background: #1057FC!important;
+}
+.tnz_sec .owl-theme .owl-dots .owl-dot.active span{
+	background: #FFFFFF!important;
+}
+.tnz_sec .owl-theme .owl-dots .owl-dot:hover span{
+	background: transparent;
+}
+.sms-carousel,
+.testimonial-carousel {
+	position:relative;
+}
+.sms-carousel .owl-nav button, 
+.testimonial-carousel .owl-nav button {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	transform: translateY(-50%);
+	outline: none!important;
+	border: 2px solid #1057FC!important;
+	border-radius: 100%!important;	
+	display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.sms-carousel .owl-nav i,
+.testimonial-carousel .owl-nav i {
+	font-family:"TTCommonsPro-Db";
+	font-size:16px;
+	padding:0;
+}
+.sms-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-prev {
+	left: -70px;
+}
+.sms-carousel .owl-nav .owl-next,
+.testimonial-carousel .owl-nav .owl-next {
+	right: -70px;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+	background:transparent!important;
+}
+.t_white .owl-theme .owl-nav [class*=owl-] i,
+.t_white .owl-theme .owl-nav [class*=owl-]:hover i {
+	color:#FFFFFF!important;
+}
+.owl-theme .owl-nav [class*=owl-]:hover i {
+	color:#210F47!important;
+}
+.tnz_sec .testimonial-carousel .owl-dots .owl-dot.active span {
+	background:#1057FC!important;
+}
+.testimonial-carousel .owl-dots .owl-dot span {
+	border: 2px solid #1057FC!important
+}
+#case_studies_section .sec_content p {
+    opacity: 0.8;
+}
+
+@media (max-width: 991px) {
+	#sms_section .owl-stage,
+	#case_studies_section .owl-stage,
+	#testimonials_section .owl-stage {
+		margin-left: -35px;
+	}
+	#case_studies_section .owl-dots {
+		display:block;
+	}
+	.owl-nav {
+		display:none;
+	}
+	
+	.tnz_sec .sms-carousel .owl-dots .owl-dot.active span {
+		background:#1057FC!important;
+	}
+	.sms-carousel .owl-dots .owl-dot span {
+		border: 2px solid #1057FC!important
+	}
+	#testimonials_section .owl-stage {
+		margin-left: -35px;
+	}
+	.testimonial-carousel .owl-dots {
+		padding-top: 20px
+	}
+	.separator {
+		margin: 30px 0px;
+	}
+}

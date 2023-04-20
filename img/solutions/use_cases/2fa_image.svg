@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="458.052" height="798" viewBox="0 0 458.052 798">
+  <defs>
+    <filter id="Shape_1_copy_7" x="0.564" y="0.5" width="457.053" height="797" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_96" x="0" y="0" width="458.052" height="798" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1051" data-name="Group 1051" transform="translate(-449.5 -2849.5)">
+    <g transform="matrix(1, 0, 0, 1, 449.5, 2849.5)" filter="url(#Shape_1_copy_7)">
+      <path id="Shape_1_copy_7-2" data-name="Shape 1 copy 7" d="M2271.931,6992.156v-106.1a49,49,0,0,0-48.965-49.045H1987.638a49.006,49.006,0,0,0-48.966,49.045v41.67h-1.526v25.944h1.526v21.915a3.947,3.947,0,0,0-1.685,3.236v43.821a3.947,3.947,0,0,0,1.685,3.236v12.193a3.951,3.951,0,0,0-1.685,3.238v43.819a3.939,3.939,0,0,0,1.685,3.234v376.6a49,49,0,0,0,48.966,49.044h235.329a49,49,0,0,0,48.965-49.044V7071.316a2.614,2.614,0,0,0,2.108-2.563v-74.034A2.611,2.611,0,0,0,2271.931,6992.156Z" transform="translate(-1876.42 -6796.51)" fill="#2c3144"/>
+    </g>
+    <path id="screen_" data-name="screen " d="M2252.509,7460.872a32.4,32.4,0,0,1-32.364,32.426H1980.077a32.4,32.4,0,0,1-32.368-32.426V6879.188a32.4,32.4,0,0,1,32.368-32.423h31.05a4.428,4.428,0,0,1,4.232,4.276v2.759a16.933,16.933,0,0,0,16.918,16.948h135.407a16.936,16.936,0,0,0,16.923-16.948v-2.6h.032a4.439,4.439,0,0,1,4.237-4.432h31.269a32.393,32.393,0,0,1,32.364,32.423Z" transform="translate(-1421.934 -3942.463)" fill="#fff"/>
+    <text id="Text_Message" data-name="Text Message" transform="translate(602.394 3523.066)" fill="#4b566f" font-size="16" font-family="TTCommonsPro-Rg, TT Commons Pro" letter-spacing="-0.02em"><tspan x="0" y="0">Text Message</tspan></text>
+    <text id="_" data-name="+" transform="translate(558.559 3527.967)" fill="#1057fc" font-size="29" font-family="TTCommonsPro-Db, TT Commons Pro" letter-spacing="-0.02em"><tspan x="-8" y="0">+</tspan></text>
+    <path id="Rectangle_4875" data-name="Rectangle 4875" d="M6,0H301.77a6,6,0,0,1,6,6V66.413a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" transform="translate(523.021 2904.485)" fill="#f3f2f5"/>
+    <path id="Rectangle_4876" data-name="Rectangle 4876" d="M1.62,0H306.15a1.62,1.62,0,0,1,1.62,1.62v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A1.62,1.62,0,0,1,1.62,0Z" transform="translate(523.021 2970.898)" fill="#210f47" opacity="0.2"/>
+    <g transform="matrix(1, 0, 0, 1, 449.5, 2849.5)" filter="url(#Subtraction_96)">
+      <path id="Subtraction_96-2" data-name="Subtraction 96" d="M285.979,677H50.65A48.984,48.984,0,0,1,1.685,627.956v-376.6A3.948,3.948,0,0,1,0,248.118V204.3a3.958,3.958,0,0,1,1.685-3.238V188.868A3.962,3.962,0,0,1,0,185.632V141.81a3.961,3.961,0,0,1,1.685-3.236V116.659H.159V90.714H1.685V49.044A48.944,48.944,0,0,1,50.65,0H285.979a48.983,48.983,0,0,1,48.965,49.044V155.149a2.615,2.615,0,0,1,2.108,2.561v74.036a2.615,2.615,0,0,1-2.108,2.563V627.956A48.94,48.94,0,0,1,285.979,677ZM48.08,14.3A32.432,32.432,0,0,0,15.713,46.724V628.408A32.433,32.433,0,0,0,48.08,660.833H288.149a32.432,32.432,0,0,0,32.364-32.426V46.724A32.43,32.43,0,0,0,288.149,14.3h-31.27a4.425,4.425,0,0,0-4.237,4.432h-.032v2.6a16.955,16.955,0,0,1-16.923,16.949H100.282A16.953,16.953,0,0,1,83.363,21.336V18.577A4.454,4.454,0,0,0,79.131,14.3Z" transform="translate(60.5 40.5)" fill="#2c3144" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </g>
+    <g id="Rectangle_4869" data-name="Rectangle 4869" transform="translate(586.195 3498.967)" fill="none" stroke="#dbdbdb" stroke-width="1">
+      <rect width="231.637" height="38.876" rx="19.438" stroke="none"/>
+      <rect x="0.5" y="0.5" width="230.637" height="37.876" rx="18.938" fill="none"/>
+    </g>
+    <g id="Rectangle_4870" data-name="Rectangle 4870" transform="translate(539.22 3498.967)" fill="none" stroke="#dbdbdb" stroke-width="1">
+      <rect width="38.876" height="38.876" rx="19.438" stroke="none"/>
+      <rect x="0.5" y="0.5" width="37.876" height="37.876" rx="18.938" fill="none"/>
+    </g>
+    <text id="_11:41" data-name="11:41" transform="translate(550.559 2923.965)" fill="#4b566f" font-size="13" font-family="TTCommonsPro-Rg, TT Commons Pro" letter-spacing="-0.02em"><tspan x="0" y="0">11:41</tspan></text>
+    <text id="Business_Name" data-name="Business Name" transform="translate(586.195 2938.502)" fill="#210f47" font-size="17" font-family="TTCommonsPro-Md, TT Commons Pro" font-weight="500" letter-spacing="-0.02em"><tspan x="-54" y="17">Business Name</tspan></text>
+    <path id="Path_1955" data-name="Path 1955" d="M-4770.2-8814.34l-8.821,8.822,8.821,8.82" transform="translate(5325.171 11756.168)" fill="none" stroke="#1057fc" stroke-width="2"/>
+    <g id="round-send-24px" transform="translate(782.196 3505.446)">
+      <g id="Bounding_Boxes" transform="translate(0 0)">
+        <path id="Path_11" data-name="Path 11" d="M0,0H25.917V25.917H0Z" fill="none"/>
+      </g>
+      <g id="Rounded_1_" transform="translate(3.24 5.694)">
+        <path id="Path_12" data-name="Path 12" d="M3.335,17.972l16.645-6.4a.825.825,0,0,0,0-1.575L3.335,3.588a.943.943,0,0,0-1.326.779L2,8.314a.888.888,0,0,0,.83.848L16.308,10.78,2.83,12.39a.9.9,0,0,0-.83.856l.01,3.947A.943.943,0,0,0,3.335,17.972Z" transform="translate(-2 -3.515)" fill="#1057fc"/>
+      </g>
+    </g>
+  </g>
+</svg>
